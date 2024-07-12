@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
     margin: 0;
     padding: 0;
 }
@@ -11,21 +11,34 @@ body {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    background-color: grey;
+    background-color: beige;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    
 }
-
+#background-video {
+    width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      position: fixed;
+      display: flex;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+  }
 h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #fff;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: pink;
+        text-shadow: 5px 5px 5px beige ;
+        text-align: center;
+        font-size: 3em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
 }
 
 .cashprice, .changeprice {
-        background-color: #555;
+        background-color: turquoise;
         padding: 10px;
         border-radius: 5px;
     margin-bottom: 20px;
@@ -45,20 +58,19 @@ input, button {
     margin: 5px 10px 10px 10px;
     border: none;
     border-radius: 5px;
-    background-color: #444;
-    color: #fff;
+   
     font-size: 16px;
     box-sizing: border-box;
 }
 
 button {
     cursor: pointer;
-    background-color: #007BFF;
+    background-color: pink;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color:lightblue;
 }
 
 p {

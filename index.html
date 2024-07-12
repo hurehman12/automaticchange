@@ -6,12 +6,16 @@
     <link rel="stylesheet" href="changecalc.css">
   </head>
   <body>
- 
+    <div class="myVideo">
+      <video autoplay muted loop id="background-video" src="Assets/Videos/4816548_Item_Business_1920x1080.mp4"></video>
+    </div>
+   <h1>Change Calculator</h1>
 <div class="container"> 
-  <h1>Change Calculator</h1>
+
   <div class="cashprice">
     <label for="amount-due">Your Total Is</label>
-    <input id="amount-due" placeholder="Cost"></input>
+    <input id="amount-due" placeholder="Cost" readonly></input>
+    <button onclick="generateRandomAmountDue()">Scanned Items</button>
     <label for="amount-received">Tender Amount</label>
     <input id="amount-received" placeholder="Received"></input>
   </div>
